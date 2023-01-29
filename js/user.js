@@ -4,5 +4,7 @@ export default class User {
     this.lastName = lastName;
   }
 
-  // your code
+  getFullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
 }
